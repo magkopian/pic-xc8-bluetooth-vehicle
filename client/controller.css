@@ -1,0 +1,73 @@
+/**********************************************\
+* Copyright (c) 2015 Manolis Agkopian          *
+* See the file LICENCE for copying permission. *
+\**********************************************/
+
+body, html {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	height: 100%;
+}
+
+#cmd {
+	margin: 10px;
+	padding: 0;
+	width: calc(100% - 30px);
+	height: 200px;
+	margin-bottom: 4%;
+	resize: none;
+	color: lime;
+	background-color: #000;
+	height: 30%;
+}
+
+a {
+	display: inline-block;
+	padding: 2px 5px;
+	height: 30px;
+	background-color: #333;
+	text-decoration: none;
+	text-align: center;
+	line-height: 30px;
+	color: #FFF;
+	margin-left: 10px;
+	margin-bottom: 2%;
+}
+
+a:hover {
+	background-color: green;
+	color: #DDD;
+}
+
+a:active {
+	background-color: green;
+	color: #DDD;
+	position: relative;
+	top: 1px;
+	left: 1px;
+}
+
+/* Mobile Devices */
+@-ms-viewport{
+  width: device-width;
+}
+
+@media (max-width: 700px) {
+	#cmd {
+		margin-bottom: 8%;
+	}
+	a {
+		margin-bottom: 6%;
+	}
+}
+
+@media (max-width: 400px) {
+	#cmd {
+		margin-bottom: 8%;
+	}
+	a {
+		margin-bottom: 8%;
+	}
+}
+
